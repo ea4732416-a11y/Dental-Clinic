@@ -264,7 +264,7 @@ button {
     pointer-events: none;
     transform: translate(-50% , -50%);
     z-index: 10000;
-    transitoin: all .1s ease;
+    transition: all .1s ease;
 }
 
 .cursor-dot.hover {
