@@ -242,7 +242,7 @@ button {
 }
 
 .cursor {
-    transition: all .2s ease;
+    transition: all .3s ease;
 }
 
 .cursor {
@@ -303,7 +303,7 @@ button {
     left: 0;
     pointer-events: none;
     z-index: 10001;
-    animation: particleMove 1s ease-out forwards;
+    animation: particleMove 2s ease forwards;
 }
 
 
@@ -328,7 +328,7 @@ button {
     position: fixed;
     pointer-events: none;
     z-index: 10001;
-    animation: particleMoves 1s ease-out forwards;
+    animation: particleMoves 2s ease forwards;
 }
 
 
@@ -451,7 +451,7 @@ input:not(:focus):not(:placeholder-shown) + label:not(.flight-label , .flow-labe
     font-size: 20px;
     font-weight: 700;
     text-decoration: none;
-    color: red;
+    color: #A52A2A;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.582);
     border: 1px solid black;
@@ -469,6 +469,7 @@ input:not(:focus):not(:placeholder-shown) + label:not(.flight-label , .flow-labe
 .GBC:hover {
     background-color: inherit;
     box-shadow: inset 1px 1px 5px #6e1919;
+    transform: scale(1.1);
     .material-symbols-outlined {
         transform: translateX(5px);
     }
