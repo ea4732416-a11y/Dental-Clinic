@@ -82,7 +82,7 @@ input:not(#mail , #teli) {
     height: 80px;
     font-size: 1.2rem;
     font-weight: bold;
-    color: rgb(128, 153, 182);
+    color: white;
     border-radius: 23px;
     border: 1px ridge whitesmoke; 
     background-color: #080c14;
@@ -553,6 +553,7 @@ input:not(:focus):not(:placeholder-shown),
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-color: black;
+    color: rgba(255, 255, 255, 0.514);
 }
 
 form input:not(:focus):not(:placeholder-shown) {
@@ -560,6 +561,7 @@ form input:not(:focus):not(:placeholder-shown) {
     background-color: rgba(255, 255, 255, .15) !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
+    color: rgba(255, 255, 255, 0.514) !important;
 }
 
 
