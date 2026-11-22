@@ -236,15 +236,6 @@ button {
     transition: all .2s ease-in-out;
 }
 
-
-.cursor-dot {
-    transition: all .1s ease;
-}
-
-.cursor {
-    transition: all .3s ease;
-}
-
 .cursor {
     width: 50px;
     height: 50px;
@@ -256,6 +247,7 @@ button {
     pointer-events: none;
     z-index: 9999;
     transform: translate(-50% , -50%);
+    transition: all .2s ease;
 }
 
 
@@ -272,6 +264,7 @@ button {
     pointer-events: none;
     transform: translate(-50% , -50%);
     z-index: 10000;
+    transition: all .1s ease;
 }
 
 .cursor-dot.hover {
