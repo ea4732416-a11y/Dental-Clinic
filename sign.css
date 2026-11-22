@@ -247,7 +247,7 @@ button {
     pointer-events: none;
     z-index: 9999;
     transform: translate(-50% , -50%);
-    transition: all .2s ease;
+    transition: all .1s ease;
 }
 
 
@@ -264,7 +264,7 @@ button {
     pointer-events: none;
     transform: translate(-50% , -50%);
     z-index: 10000;
-    transitoin: all .2s ease;
+    transitoin: all .1s ease;
 }
 
 .cursor-dot.hover {
